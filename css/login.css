@@ -1,0 +1,36 @@
+body {
+  background-image: url(img/loginback.jpg);
+  background-size: cover;
+}
+.container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.form-group {
+  /* text-align: center; */
+}
+#login {
+  background-color: #999966;
+  /* opacity: 0.8; */
+  padding: 30px;
+}
+.buttons {
+  text-align: center;
+  opacity: 1;
+}
+#or {
+	background-color: #666666;
+}
+.others {
+  text-align: center;
+}
+#title, #title2 {
+  text-align: center;
+}
+#title {
+  font-family: sans-serif;
+  font-size: 40px;
+}
+#title2 {
+  font-size: 30px;
+}
