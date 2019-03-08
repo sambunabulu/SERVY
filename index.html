@@ -2,55 +2,74 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/login.css">
-    <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
-    <script src="login.js" charset="utf-8"></script>
-    <title>SERVY(login page)</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="js/home.js"></script>
+    <title></title>
   </head>
   <body>
-    <div class="container">
-    <div class="rows">
-      <div class="col-md-6" id="login">
-        <h1 id="title">SERVY</h1>
-        <h2 id="title2">login</h2>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Username</label>
-          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter username">
-        </div>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-        </div>
-        <div class="form-group form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">remember me</label>
-        </div>
-        <div class="buttons" style="padding-bottom: 20px;">
-          <a href="home.html"><button type="submit" class="btn btn-success">Login as user</button></a>  &nbsp &nbsp
-          <a href="home.html"><button type="submit" class="btn btn-warning">Login as tasker</button></a>
-        </div>
-        <div class="others">
-          <div style="margin: 24px 0;  font-size: 40px;">
-            <a href="#"><i class="fa fa-dribbble"></i></a>
-            <a href="https://twitter.com/hashtag/login?lang=en"><i class="fa fa-twitter"></i></a>
-            <a href="https://www.linkedin.com/company/mobiliftportugal"><i class="fa fa-linkedin"></i></a>
-            <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-          </div>
-        </div>
-
-      </div>
-        <div class="col-md-6" id="takenin">
-
-        </div>
-
+    <style type="text/css">
+    body {
+        background-image: url('css/img/tailor2.jpeg');
+    }
+    </style>
+    <div class="navbar">
+    <a href="home.html">Home</a>
+    <a href="blog.html">Blogs</a>
+    <a href="how.html">How it works</a>
+    <a href="login.html">Log in</a>
+    <a href="login.html">Sign up</a>
+    <div class="dropdown">
+    <button class="dropbtn">Professional Services
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="profile.html">capentry</a>
+      <a href="tailor.html">tailoring</a>
+      <a href="plumbing.html">plumbing</a>
+      <a href="electrician.html">electrician</a>
     </div>
 
     </div>
+    <div class="search-container">
+    <form id="search" action="">
+      <input id="searchbox" type="text" placeholder="Search.." name="search">
+      <button id="searchbutton" type="submit">search</button>
+    </form>
+    </div>
+
+    </div>
+
+
+ <div class="centre">
+ <div class="container">
+   <div class ="servy"><img src="css/img/servy.webp" alt="this is an icon"></div>
+   <h2><strong>Are you looking for temporary skilled vetted professionals for your home???</strong></h2><br><br>
+
+     <div class="icons">
+       <div class ="icon-name"><img src="css/img/tap2.png" alt="this is an icon"><p> plumbers </p></div>
+       <div class ="icon-name"><img src="css/img/gardener.png" alt="this is an icon"><p> Gardeners</p></div>
+       <div class ="icon-name"><img src="css/img/driver.png" alt="this is an icon"><br><br><p> Temporary Drivers </p></div>
+       <div class ="icon-name"><img src="css/img/electrician.png" alt="this is an icon"><p> Electricians </p></div>
+     </div><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+       <h2>Servy got you covered!!!<h2>
+     </div>
+
+
+
+     </div>
+
+        <div class="footer">
+              <a id="social-fb" href="https://www.facebook.com"><i class="fa fa-facebook-square fa-3x social"></i></a>
+	            <a id="social-tw" href="https://twitter.com"><i class="fa fa-twitter-square fa-3x social"></i></a>
+	            <a id="social-gp" href="https://plus.google.com/+Bootsnipp-page"><i class="fa fa-google-plus-square fa-3x social"></i></a>
+	            <a id="social-em" href="mailto:kiokonelson2@gmail.com"><i class="fa fa-envelope-square fa-3x social"></i></a>
+</div>
+        </div>
   </body>
 </html>
