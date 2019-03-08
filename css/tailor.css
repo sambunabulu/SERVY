@@ -2,6 +2,7 @@ body {
   background-image: url(img/loginback.jpg);
   background-size: cover;
 }
+
 .card-title, .card-text, .card-img-top {
   text-align: center;
 }
